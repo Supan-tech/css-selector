@@ -1,0 +1,34 @@
+#id-selector{
+    border: 2px solid black;
+}
+
+#id-selector h1{
+    color: aquamarine;
+}
+
+#id-selector span{
+    color: chocolate;
+}
+
+#id-selector p:last-child{
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+div{
+    margin-top: 10px;
+    border: 2px solid green;
+}
+
+h1{
+    color: green;
+}
+
+span{
+    color: green;
+}
+
+div p:last-child{
+    color: white;
+    background-color: green;
+}

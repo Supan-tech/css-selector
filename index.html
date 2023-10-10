@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS selector</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .class-selector{
+            margin-top: 10px;
+            border: 2px solid green;
+        }
+        .class-selector > h1{
+            color: orange;
+        }
+        .class-selector  span{
+            color: lightsalmon;
+        }
+        .class-selector  p:nth-child(3){
+            background-color:darkkhaki;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: 2px solid purple;">
+        <h1 style="color: red;">Inline Style</h1>
+        <p>This is an <span style="color: blue;">inline sytle</span></p>
+        <p style="background-color: blueviolet; color: white;">This is a paragraph with inline styling</p>
+    </div>
+
+    <div class="class-selector">
+        <h1>Class selector</h1>
+        <p>This is a <span>class selector</span></p>
+        <p>This is a paragraph with class selector styling</p>
+    </div>
+
+    <div id="id-selector">
+        <h1>ID selector</h1>
+        <p>This is a <span>ID selector</span></p>
+        <p>This is a paragraph with id selector styling</p>
+    </div>
+
+    <div>
+        <h1>Element Selector</h1>
+        <p>This is a <span>Element selector</span></p>
+        <p>This is a paragraph with element selector</p>
+    </div>
+</body>
+</html>
